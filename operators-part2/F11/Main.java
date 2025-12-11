@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    double r=sc.nextDouble();
+	    
+	    double cir=2*Math.PI*r;
+	    
+		System.out.println(cir);
+	}
+}
